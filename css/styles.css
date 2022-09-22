@@ -1,0 +1,138 @@
+body {
+  background-image: url(https://images-cdn.welcomesoftware.com/Zz05NmM1YjFjYjhlNDIxMWViODczZWQzYzBkNTFlNDU4ZA==);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7FB77E;
+  position: relative;
+  padding: 15px 10%;
+
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.1875rem;
+  font-family: 'pacifico', cursive;
+}
+
+.signin-button {
+  background-image: linear-gradient(#FDEEDC, #F1A661);
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 2.1874rem;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #CA955C;
+  text-shadow: #F1A661;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.container {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: auto;
+}
+.main-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+.container-kids{
+  color: white;
+  font-family:fantasy;
+  width: 45%;
+  height: 600px;
+  padding: 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+.container-kids label{
+  text-align: left;
+  float:left;
+  font-size: 24px;
+}
+input{
+  width: 100%;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    font-size: 0.85rem;
+    font-family: fantasy;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 70px;
+    border: none;
+    color: white;
+    background-color: #B3541E;
+    padding: 10px 10px;
+
+
+      }
+      p {
+        text-align: center;
+
+      }
+a{
+  text-decoration: none;
+  color: orange;
+}
+.data-collect{
+  width: 25%;
+  max-width: 300px;
+  padding: 10px 10px;
+  margin-top: 50px;
+  font-family: fantasy;
+  background-color: #DF7861;
+}
+@media screen and (max-width:1200px) {
+
+  .container{
+    flex-direction: column;
+
+  }
+.container-kids{
+  width:75%;
+  margin: 10px 0px;
+}
+button{
+  font-size: 0.80rem;
+}
+}
+footer{
+  font-family: sans-serif;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+}
